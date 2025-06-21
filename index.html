@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
 </head>
 <body>
-    <div class="tela-inicial" style="display: block">
+    <div class="tela-inicial" style="display:block">
         <img class="logo" src="logo.png" alt="" />
         <br />
         <button class="iniciar">iniciar</button>
     </div>
 
-    <div class="tela-pergunta" style="display:block">
+    <div class="tela-pergunta" style="display:none">
         <img class="cerebro" src="cerebro.png" alt="" />
         <div class="pergunta"></div>
 
@@ -27,14 +27,17 @@
         <button class="botao-responder opcao3"></button>
     </div>
 
-    <div class="tela-acertou" style="display:block">
+    <div class="tela-acertou" style="display:none">
         <img class="acertou" src="ganhou.png" />
     </div>
 
-    <div class="tela-errou" style="display:block">
+    <div class="tela-errou" style="display:none">
         <img class="errou" src="perdeu.png" />
     </div>
-
+    <div class="tela-final" style="display: none">
+        <<img class="final" src="finalizado.png" />
+    </div>
+    
     <script src="logica.js"></script>
 </body>
 </html>
