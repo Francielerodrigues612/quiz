@@ -3,7 +3,7 @@ listaPerguntas = [
     {pergunta : "Qual o maior ser vivo do mundo?",
     opcoes : [
         "Baleia azul",
-        "Fundo de mel",
+        "Fungo de mel",
         "Elefante",
         "Girafa"
     ],
