@@ -48,6 +48,8 @@ botao0 = document.querySelector(".opcao0");
 botao1 = document.querySelector(".opcao1");
 botao2 = document.querySelector(".opcao2");
 botao3 = document.querySelector(".opcao3");
+voltar = document.querySelector(".voltar");
+
 
 telaAcertou.addEventListener("click", () => {
     telaAcertou.style.display = "none"
@@ -91,10 +93,16 @@ botao3.addEventListener("click", () => {
     }
 })
 
+voltar.addEventListener("click", () => {
+    telaFinal.style.display = "none"
+    telaInicial.style.display = "block"
+    perguntaAtual = 0
+})
 
 
 
 function iniciarJogo() {
+    
     telaInicial.style.display = "none";
     
     telaPergunta.style.display = "block";

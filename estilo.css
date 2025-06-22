@@ -91,6 +91,18 @@ body {
 
 .final {
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.voltar {
+    font-size: 45px;
+    margin-top: 850px;
+    padding: 10px 20px 10px 20px;
+    background: #D0F0C0;
+    border: 15px solid #66bb66;
+    color: black;
+  }
+
+.voltar:active {
+    background: #D0F0C0;
 }
